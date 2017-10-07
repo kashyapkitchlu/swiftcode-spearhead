@@ -25,7 +25,10 @@ public NewsAgentResponse getNewsAgentResponse(String keyword,UUID sessionid){
                 .get();
         JsonNode response = responsePromise.thenApply(WSResponse::asJson).toCompletableFuture().get();
         newsAgentResponse.keyword = response.get("result").get("parameters").get("keyword").asText();
+    }catch (Exception e){
+        e.printStackTrace();
     }
+    return newsAgentResponse;
 
 }
 }

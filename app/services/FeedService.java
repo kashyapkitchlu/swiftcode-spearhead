@@ -11,7 +11,7 @@ import java.util.concurrent.CompletionStage;
 import java.util.concurrent.ExecutionException;
 
 public class FeedService {
-    public FeedResponse getfeedresponse(String keyword) {
+    public FeedResponse getFeedResponse(String keyword) {
 
         FeedResponse feedresponseObject = new FeedResponse();
         try {

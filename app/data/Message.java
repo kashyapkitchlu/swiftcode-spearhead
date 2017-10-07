@@ -1,9 +1,9 @@
 package data;
 
 public class Message {
-    String text;
-    String time;
-    public FeedResponse feedresponse;
+   public String text;
+    public String time;
+    public FeedResponse feedResponse;
     public enum Sender{
         BOT,USER
     };
