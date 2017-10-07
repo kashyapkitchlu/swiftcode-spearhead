@@ -17,5 +17,11 @@ import javax.inject.Inject;
 import java.util.Objects;
 
 public class HomeController extends Controller {
-
+public Result index()
+{
+    return ok(views.html.index.render());
+}
+public LegacyWebSocket<String> chatSocket(){
+    return WebSocket.withActor(MessageActor::props);
+}
 }

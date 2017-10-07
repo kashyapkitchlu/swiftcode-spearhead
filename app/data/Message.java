@@ -3,7 +3,10 @@ package data;
 public class Message {
     String text;
     String time;
-    public enum Sender{BOT,USER};
+    public FeedResponse feedresponse;
+    public enum Sender{
+        BOT,USER
+    };
     public Sender sender;
 
 

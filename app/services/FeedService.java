@@ -11,5 +11,5 @@ import java.util.concurrent.CompletionStage;
 import java.util.concurrent.ExecutionException;
 
 public class FeedService {
-
+public FeedResponse getfreeresponse(String keyword){return null;}
 }
