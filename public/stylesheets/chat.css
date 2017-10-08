@@ -1,6 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
 #message-pane {
-    background: url(https://i2.wp.com/38.media.tumblr.com/03bd8d41da21953c26816bdb42f13b49/tumblr_n7387pDw541tbh1dho1_400.gif?resize=267%2C145);
+    background: url(https://popxo-uploads.s3.amazonaws.com/2015/03/Dating-Arnab-7.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
+body{
+background-color: rgb(0,0,0)}
+
+.message-card{
+max-width:75%;
+border-radius:10px;
+padding:10px;
+font-family: 'Shadows Into Light', cursive;
+font-size:14px;
+font-weight:bold;
+box-shadow:0px 0px 10px 5px rgb(0,255,255);}
+
+.message-time{
+margin-top4px;
+float:right;
+color:#474943;
+font-size:12px;}
+#form-card
+{
+margin:0px;}
