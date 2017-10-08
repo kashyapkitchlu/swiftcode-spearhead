@@ -19,7 +19,9 @@
                 {'background-color':'#f44141'}">
 
                 <span>{{message.text}}</span>
-                    <span ng-bind-html="trust(message.feedResponse.description)">{{message.feedResponse.description}}</span>
+                    <span ng-bind-html="trust(message.feedResponse.description)">
+                        {{message.feedResponse.description}}</span>
+
                 <span class="message-time">{{message.time}}</span>
                 </md-card>
             </div>
